@@ -7,7 +7,7 @@ Mon expertise couvre l'écosystème complet Next.js :
 • Frontend : Next.js 14 (App Router), Shadcn/UI, Tailwind CSS
 • State Management : Zustand, TanStack Query  
 • Authentication : Better-Auth, NextAuth.js
-• Backend : Django REST Framework, APIs performantes
+• Backend : Django REST Framework, APIs performantes, docker
 
 Je conçois des architectures solides, optimisées et maintenables, en accordant une importance cruciale à l'expérience utilisateur, aux performances et aux bonnes pratiques.
 

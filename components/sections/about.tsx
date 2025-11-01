@@ -1,10 +1,17 @@
 import React from 'react'
 import { TextGenerateEffect } from "../ui/text-generate-effect";
 import { cn } from '@/lib/utils';
-const words = `Développeur full-stack passionné, je me spécialise dans la création d’applications web performantes et modernes avec Next.js, React.js, Angular, Node.js et Laravel. 
-Mon objectif est de concevoir des solutions fiables, évolutives et centrées sur l’utilisateur. 
-J’accorde une grande importance à la qualité du code, à l’optimisation des performances et aux bonnes pratiques de développement. 
-Toujours en apprentissage continu, je cherche à relever de nouveaux défis techniques et à transformer les idées en projets digitaux concrets.`;
+const words = `Développeur full-stack spécialisé Next.js, je crée des applications web modernes et performantes avec Next.js 14+, React, TypeScript et l'écosystème moderne.
+
+Mon expertise couvre l'écosystème complet Next.js :
+• Frontend : Next.js 14 (App Router), Shadcn/UI, Tailwind CSS
+• State Management : Zustand, TanStack Query  
+• Authentication : Better-Auth, NextAuth.js
+• Backend : Django REST Framework, APIs performantes
+
+Je conçois des architectures solides, optimisées et maintenables, en accordant une importance cruciale à l'expérience utilisateur, aux performances et aux bonnes pratiques.
+
+Toujours en veille technologique, je maîtrise également React Native, Angular et Laravel pour des solutions adaptées à chaque contexte.`
 
 export default function About() {
   return (
@@ -21,9 +28,9 @@ export default function About() {
       />
       {/* Radial gradient for the container to give a faded look */}
       <div className="pointer-events-none absolute inset-0 flex items-center justify-center dark:bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] bg-black"></div>
-      <p className="relative z-20 bg-gradient-to-b from-neutral-200 to-neutral-500 bg-clip-text py-8 text-4xl font-bold text-transparent sm:text-7xl">
+      <div className="relative z-20 bg-gradient-to-b from-neutral-200 to-neutral-500 bg-clip-text py-8 text-4xl font-bold text-transparent sm:text-7xl">
                 <TextGenerateEffect words={words} />
-      </p>
+      </div>
     </div>
    </section>
   )
